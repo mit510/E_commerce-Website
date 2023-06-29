@@ -1,0 +1,257 @@
+/* @media ( max-width: 991px) {
+    .categorey{
+        display: block;
+        justify-content: center;
+    }
+    .categorey .image {
+        flex: 0 0 25%;
+        max-width: 100%;
+    }
+    .categorey .image img{
+        display: inline-block;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} */
+/* @media ( min-width: 767px) {
+     .categorey{
+        display: block;
+        justify-content: center; 
+    } 
+    .categorey .image img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+}
+@media ( max-width: 390px) {
+     .image{
+         margin-left: -1000px; 
+        display: block;
+        border: 2px solid;
+         justify-content: center; 
+    }
+     .categorey .image img{
+        flex: 0 0 50%;
+        max-width: 100%;
+    } 
+} */
+
+/* .text{
+    padding: 1vh;
+    /* border-bottom: 3px solid;
+    border-top: 3px solid; 
+    margin-top: 6vh;
+    text-align: center;
+    background:#e9eaed;
+} */
+/* .text h1{
+    font-size: 2rem;
+    padding: 1vh;
+}
+.category img{
+    cursor: pointer;
+    border-radius: 1vh;
+    height: 40vh;
+    width: 40vh;
+}
+.category img:hover{
+    cursor: pointer;
+    border-radius: 1vh;
+    height: 40vh;
+    width: 40vh;
+    opacity: .5;
+}
+.sohes, .clothing, .accessories, .sport{
+    position: relative;
+    border: none;
+    margin-left: 10vh;
+    border-radius: 1vh;
+    height: 50vh;
+    width: 41vh;
+    margin: 3.5vh;
+    margin-top: 6vh;
+    box-shadow: 0.5vh 0.5vh 1vh gray,-0.5vh -0.5vh 1vh grey;
+} */
+/* .txt{
+    /* text-decoration: overline; 
+    text-align: center;
+    padding: 1.5vh;
+} */
+/* .button{
+   /* visibility: hidden; 
+    color: white;
+    text-align: center;
+    height: 5vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 13vh;
+    /* bottom: 0px; 
+    margin-top: -20vh;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    border-radius: 2vh;
+    background: #007bff;
+    opacity: 0;
+    transition: .5s;
+} */
+/* .sohes:hover .button, .clothing:hover .button, .accessories:hover .button, .sport:hover .button{
+    opacity: 1;
+    margin-top: -25vh;
+   cursor: pointer;
+}
+.sohes:hover .txt, .clothing:hover .txt, .accessories:hover .txt, .sport:hover .txt{
+  opacity: 0.5;
+}
+.sohes:hover , .clothing:hover , .accessories:hover , .sport:hover{
+    transform: scale(1.1 , 1.1);
+    /* transition-delay: 2s; */
+  
+/* .button:hover .category img{
+    opacity: 0.5;
+} */
+
+/* .categorey{
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 8vh;
+    align-items: center;
+      border: 3px solid black;
+      display: flex; 
+      height: 50%;
+}
+.categorey .image{
+    height: 500px;
+    width: 500px;
+}
+.categorey .image img{
+    border: none;
+    border-radius: 5px;
+
+    max-width:80%;
+    flex:0 0 25%;
+    height: 50%;
+    justify-content: center;
+} */
+.categorey .box img{
+    height: 100%;
+    width:100%;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+}
+.categorey .box:hover img {
+    cursor: pointer;
+    opacity: .5;
+}
+.categorey .box:hover h3{
+    opacity: .5;
+}
+/* .categorey .box:hover img{
+    opacity: 0.5;
+} */
+.categorey .box{
+    display: inline-block;
+    height: 100%;
+}
+.categorey .box .heading h3{
+    padding-top: 0.7vh;
+    margin-left: 0.7vh;
+    /* align-items: center; */
+    width: 100%;
+    /* justify-content: center; */
+    background: black;
+    color: white;
+    border: none;
+    /* border: 3px solid; */
+    text-align: center;
+    border-radius: 10px;
+    height: 6vh;
+}
+.categorey .box:hover  button{
+    display: inline-block;
+    top: 50%;
+}
+.categorey .box button{
+    display: none;
+    width: 17vh;
+    border-radius: 20px;
+    height: 5vh;
+    border: none;
+    top: 60%;
+    position: absolute;
+    left: 30%;
+    color: white;
+    background-color: #007bff;
+}
+.categorey .box button a{
+    text-decoration: none;
+    color: white;
+}
+    
+ .text h1{
+    font-size: 2rem;
+    padding: 1vh;
+}
+
+/* categorey  */
+.categorey{
+    display: flex;
+    /* border: 3px solid black; */
+    max-width: 100%;
+    height:40vh;    
+    margin: 10px;
+}
+.categorey .box{
+    position: relative;
+    /* border: 3px solid black; */
+    max-width: 100%;
+    flex: 0 0 23%;
+    height: 40vh; 
+    /* margin-bottom: 18px;    */
+    margin: 1%;
+}
+/* For Tablet View */
+  @media screen and (min-device-width: 700px)
+  and (max-device-width: 1024px) {
+    .categorey {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .categorey .box{
+        margin: 5%;
+            max-width: 40%;
+            flex: 0 0 40%;
+            height: 35vh;
+            
+        }
+
+  }
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 700px)
+  and (orientation: portrait) {
+    .categorey{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .categorey .box{
+        margin-top: 5%;
+        max-width: 98%;
+        flex: 0 0 98%;
+        height: 35vh;
+        margin-bottom: 100px;
+    }
+    /* navbar */
+    .utility-nav {
+        border: 3px solid ;
+        background: #e4e4e4;
+        padding: 0.5rem 1rem;
+
+    }
+  }
+   

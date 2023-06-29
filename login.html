@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign Up</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/loginstyle.css">
+        
+    </head>
+    <body>
+        
+        <div class="login-popup">
+            <div class="box">
+                 <div class="img-area">
+                     <div class="img">
+                        <img src="logo.png" alt="">
+                     </div>
+                     <!-- <h1>Your Logo</h1> -->
+                 </div>
+                 <div class="form">
+                     <div class="close">&times;</div>
+                     <h1>Log In</h1>
+                     <form action="login.php" method="post">
+                         <div class="form-group">
+                             <input type="email" name="emill" placeholder="Email" class="form-control" required>
+                         </div>
+                         <div class="form-group">
+                             <input type="password" name="pass" placeholder="Password" class="form-control" required>
+                         </div>
+                         <!-- <div class="form-group">
+                             <label><input type="checkbox">
+                                 Remember Me
+                             </label>
+                         </div> -->
+                         <div class="form-group">
+                            <p>Are you new coustomer? &nbsp;<Span> <a href="signup.html">Register</a> </Span></p>
+                         </div>
+                         <button type="submit" class="btn">Log In</button>
+                     </form>
+                 </div>
+            </div>
+       </div>
+     <script src="js/login.js"></script>
+    </body>
+</html>

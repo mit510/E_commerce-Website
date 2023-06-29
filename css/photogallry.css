@@ -1,0 +1,76 @@
+
+.advertisement img{
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+    height: 500px;
+    width: 1330px;
+    margin-left: 95px;
+}
+.advertisement{
+    width: 100%;
+    height: 80vh;
+    /* background: #222; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 95%;
+    height: max-content;
+}
+.swiper-slide img{
+    height: 75vh;
+    margin-left: 0vh;
+    width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+@media screen and (min-device-width: 700px)
+  and (max-device-width: 1024px) {
+    .categorey {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .categorey .box{
+        margin: 5%;
+            max-width: 40%;
+            flex: 0 0 40%;
+            height: 35vh;
+        }
+
+  }
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 800px)
+  and (orientation: portrait) {
+    .advertisement img{
+        cursor: pointer;
+        margin-top: 20px;
+        align-items: center;
+        height: 250px;
+        width: 1330px;
+        margin-left: 95px;
+    }
+    .advertisement{
+        margin-top: 100px;
+        width: 100%;
+        height: 33vh;
+        /* background: #222; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .swiper-slide img{
+        height: 33vh;
+        margin-left: 0vh;
+        width: 100%;
+    }
+  }
+   

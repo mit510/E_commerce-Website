@@ -1,0 +1,150 @@
+.product{
+    max-width: 100%;
+    flex: 100%;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.image,.image{
+max-width: 50%;
+flex: 50%;
+}
+.swiper{
+    width: 95%;
+    height: max-content;
+}
+.swiper-slide img{
+    height: 75vh;
+    margin-left: 0vh;
+    width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: rgb(10, 10, 10);
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+/* .img{
+ height: 50vh;
+ width: 50vh;
+ border: 2px solid black ;
+}
+table{
+    margin-left: 3vh;
+     border:1px solid;  
+    width:90%;
+     height:700px; 
+     justify-content:center;
+}
+td{
+    height: 100px;
+}
+td img{
+    width:100px;
+     height:100px;
+}
+.about{
+    margin-left: -50px;
+}
+.details{
+    color: black;
+    max-width: 100%   
+}
+.pics{
+    justify-content: center;
+    display: flex;
+}
+.product img{
+    margin-left: 20px;
+}
+.product .img1 .pics img{
+    cursor: pointer;
+    height: 136px;
+    margin-left: .8vh;
+    margin-top:8px;
+} */
+.product .about .heading{
+    display: flex;
+    margin-left: 20px;
+}
+.product .about .heading h3{
+   margin-left: 20px;
+    color: #1e88f5;
+    font-size: 40px;
+    font-family: cursive;
+}
+.product .about .heading .fa-heart{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.product .about .details p{
+    font-weight: 500;
+    font-size: large;
+    margin: 25px;
+    margin-left: 80px;
+    /* border: 3px solid; */
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.product .about .price{
+    margin-left: 80px;
+    font-size: x-large;
+    font-weight: 600;
+}
+.product .about .price span{
+color: red;
+}
+.contity {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.product .about .contity p{
+    font-size: x-large;
+    font-weight: 600;
+}
+.product .about .contity input{
+border-radius: 10px;
+width: 40px;
+height: 41px;
+margin-left: 15px;
+/* align-items: center; */
+/* text-align: center; */
+border: 2.5px solid #a7a4a4;
+opacity: .7;
+}
+.product .about .btn1{
+    margin-left: 80px;
+    width: 90%;
+}
+.product .about .btn1 button{
+    border: none;
+    cursor: pointer;
+ height: 40px;
+    margin-top: 20px;
+    width: 50%;
+    /* justify-content: left; */
+    border-radius: 30px;
+    background: #ffd814;
+    font-weight: 600;
+}
+.product .about .btn1 .fa-shopping-cart,.fa-flash{
+    margin-right: 10px;
+}
+ @media (max-width:820px) { 
+    .product{
+        display: inline-block;
+    }
+    .image,.image{
+        max-width: 100%;
+        flex: 100%;
+    }
+     .swiper-slide img{
+            height: 20%;
+            margin-left: 0vh;
+            width: 100%;
+    }
+    .about{
+        margin-top: 2vh;
+    }
+ }
